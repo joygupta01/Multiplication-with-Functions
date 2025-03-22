@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="myfunction(2)">Execute</button>
+    <button onclick="variables()">Variable</button>
+    <h1>Funtions In JS</h1>
+    <p id="a"></p>
+    <p id="b"></p>
+    <p id="c"></p>
+    <p id="d"></p>
+    <p id="e"></p>
+    <script>
+         function variables () {
+                var a = 9
+                var b = 5
+                document.getElementById("a").innerHTML= a+b;
+                document.getElementById("b").innerHTML= a*b;
+                document.getElementById("c").innerHTML= a-b;
+            }
+            document.getElementById("d").innerHTML= b;
+            document.getElementById("e").innerHTML= a;
+    </script>
+</body>
+</html>
